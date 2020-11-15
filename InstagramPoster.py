@@ -16,10 +16,10 @@ driver.implicitly_wait(10)
 jump_to_login_button = driver.find_element(By.XPATH, '//button[contains(text(), "Log In")]').click()
 
 username_field = driver.find_element(By.NAME, 'username')
-username_field.send_keys('jackparry999@gmail.com')
+username_field.send_keys('Insert Your Username')
 
 password_field = driver.find_element(By.NAME, 'password')
-password_field.send_keys('jackparry84')
+password_field.send_keys('Insert Your Password')
 
 login_button = driver.find_element(By.XPATH, '//button[@type="submit"]').click()
 
