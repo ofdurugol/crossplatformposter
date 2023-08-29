@@ -17,3 +17,6 @@ What it does?
 2) 'MakeImgSquare' takes "hot.png" and adds white space around it to make it 1:1 if it's not square, and saves it again to "assets/hot.png".
 
 3) 'InstagramPoster' opens the instagram account in mobile view and posts the image with the caption from "assets/title.txt" and the image from "assets/hot.png".
+
+
+NOTE: Use an interpreter other than conda, a standard python virtual environment should do. Conda repos do not have 'pyautoit' library yet and installing with 'pip install' in conda created problems with package in my case.
