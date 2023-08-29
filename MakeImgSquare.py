@@ -12,3 +12,4 @@ def make_square(im, fill_color=(255, 255, 255, 0)):
 img = Image.open('./assets/hot.png')
 square_img = make_square(img)
 square_img.save('./assets/hot.png')
+print("Image turned into 1:1 aspect ratio.")
